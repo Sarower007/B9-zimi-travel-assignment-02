@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+/* Shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main,
+header {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+/* Header styles */
+
+header>nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #424247;
+    margin-bottom: 20px;
+}
+
+nav>.menu-items>a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #424247;
+    font-weight: 400;
+}
+
+.menu-items>.active {
+    color: #FF5400;
+}
+
+nav>.main-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.main-logo>h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.main-logo>h2>span {
+    color: #FF5400;
+}
+
+/* Banner style */
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13.png);
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner>.banner-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.banner-title-part>h1,p {
+    color: aliceblue;
+}
+
+.banner-title-part>h1 {
+    font-size: 4rem;
+    color: aliceblue;
+    padding-bottom: 50px;
+
+}
+
+form {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 50px;
+}
+form > input, select, option{
+    color: rgba(19, 19, 24, 0.50);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    
+}
+
+form>button{
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px; 
+    width: 25%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+

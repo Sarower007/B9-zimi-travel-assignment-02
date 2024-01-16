@@ -11,16 +11,16 @@ main,
 header {
     max-width: 1170px;
     margin: 0 auto;
-    border: 1px solid tomato;
     font-family: 'Mulish', sans-serif;
 
 }
 
 .primary-btn {
     color: #fff;
-    padding: 10px 25px;
+    padding: 15px 30px;
     background-color: #FF5400;
     border: none;
+    font-size: 1.2rem;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
@@ -34,7 +34,6 @@ header>nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #424247;
     margin-bottom: 20px;
 }
 
@@ -54,6 +53,10 @@ nav>.main-logo {
     gap: 20px;
     align-items: center;
 
+}
+
+.hamburger-button {
+    display: none;
 }
 
 .main-logo>h2 {
@@ -84,7 +87,7 @@ nav>.main-logo {
     height: 500px;
 }
 
-.banner-title-part>.banner-paragraph-part>p {
+.banner-paragraph-part>p {
     color: aliceblue;
 }
 
@@ -111,16 +114,24 @@ form>input,
 select,
 option {
     color: rgba(19, 19, 24, 0.50);
-    padding: 10px 25px;
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
     width: 25%;
 
 }
 
-form>button {
+form>.prime-btn{
     width: 25%;
+    font-size: 1rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5400;
+    color: aliceblue;
+
 }
+
 
 /* popular-tour-part */
 
@@ -339,6 +350,7 @@ form>button {
     font-size: 2rem;
 }
 
+
 .choose-us-top-part>p {
     text-align: center;
 }
@@ -365,6 +377,9 @@ form>button {
     padding: 25px;
     border-radius: 10px;
     background-color: rgba(251, 181, 99, 0.20);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+
 
 
 
@@ -374,25 +389,52 @@ form>button {
     padding: 25px;
     border-radius: 10px;
     background-color: rgba(41, 206, 246, 0.20);
+    border: 1px solid rgba(41, 206, 246, 0.20);
 
 
+
+
+}
+
+.hotel-two-part>img {
+    width: 10%;
+    height: 10%;
+}
+
+.price-tag {
+    width: 80px;
+    height: 80px;
 }
 
 .part3 {
     padding: 25px;
     border-radius: 10px;
     background-color: rgba(41, 206, 246, 0.20);
+    border: 1px solid rgba(233, 68, 68, 0.20);
     width: 50%;
     margin-top: 15px;
 
 
 }
 
+.part1>h4,
+.part2>h4,
+.part3>h4 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
 /* Deals & Discounts part */
-.discount-part{
+.discount-part {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.pack-top-info-part>p>i {
+    color: #FF5400;
 }
 
 .dis-top-part>h1 {
@@ -406,7 +448,7 @@ form>button {
     margin-top: 15px;
 }
 
-.discount-part>.package-1{
+.discount-part>.package-1 {
     background: url(../Images/Group\ 39.png);
     height: 100%;
     width: calc(100% - 80px);
@@ -417,6 +459,7 @@ form>button {
     padding: 40px;
     direction: rtl;
 }
+
 .discount-part>.package-2 {
     background: url(../Images/Group\ 40.png);
     height: 100%;
@@ -429,6 +472,7 @@ form>button {
     direction: ltr;
     margin-top: 20px;
 }
+
 .discount-part>.package-3 {
     background: url(../Images/Group\ 13.png);
     height: 100%;
@@ -454,29 +498,203 @@ form>button {
     backdrop-filter: blur(2.5px);
     direction: ltr;
     padding: 30px;
-   
+
 }
-.pack-content-part>.pack-top-info-part{
+
+.pack-content-part>.pack-top-info-part {
     display: flex;
     justify-content: left;
     gap: 30px;
 }
-.pack-content-part>.pack-title>h4{
+
+.pack-content-part>.pack-title>h4 {
     font-size: 1.8rem;
     margin-top: 50px;
     margin-bottom: 15px;
 }
-.pack-content-part>.pack-price-part>h4{
+
+.pack-content-part>.pack-price-part>h4 {
     font-size: 1.5rem;
     color: #FF5400;
     margin-top: 20px;
 }
-.pack-btn{
+
+.pack-btn {
     margin-top: 20px;
 }
-.discount-part>.pack-bottom-button>button{
+
+.discount-part>.pack-bottom-button>button {
     align-items: center;
     margin-top: 30px;
 }
+
+
+/* Video part */
+.video-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.video-part>.video-content-part {
+    width: 50%;
+    margin-right: 25px;
+
+}
+
+.video-part>.video-content-part>.video-top-part>h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.video-top-part>p {
+    color: #3a3a3ab9;
+    margin-bottom: 10px;
+}
+
+.video-list-part {
+    padding-left: 10px;
+
+
+
+}
+
+.video-list-part>ul>li {
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.video-part>.video {
+    width: 50%;
+
+
+
+}
+
+.video-part>.video>video {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* newsletter-part */
+
+.newsletter-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: ltr;
+    width: 100%;
+
+}
+
+.newsletter-content {
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 50%;
+}
+
+.news-input-part>input {
+    width: calc(100% - 30px);
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    color: #424247;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.news-input-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+
+}
+.newsletter-content>button{
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.newsletter-content>h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 15px;
+}
+.newsletter-content>p{
+    color: #5A5A5D;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #5a5a5d86;
+}
+
+.news-popup-part{
+    background: #FF5400;
+    color: #FFF;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+.news-popup-part>p{
+    text-align: center;
+
+}
+.news-popup-part>h1{
+    text-align: center;
+    
+}
+.ews-img-part{
+    width: 50%;
+    height: 100%;
+
+}
+
+
+/* Footer part */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Mulish', sans-serif;
+    margin-top: 100px;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    padding-bottom: 20px;
+}
+
+.footer-social-part{
+    padding-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    border-bottom: 1px solid #4242477c;
+    margin-bottom: 20px;
+}
+
 
 

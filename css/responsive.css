@@ -30,28 +30,9 @@
 
     }
 
-    form {
-        flex-direction: column;
-       margin-bottom: 66px;
-    }
+  
 
-    form>input,
-    select,
-    option {
-        width: 100%;
-    }
-
-    form>.prime-btn {
-        width: 80%;
-        font-size: 1rem;
-        padding: 15px 25px;
-        border: none;
-        border-radius: 5px;
-        background-color: #FF5400;
-        color: aliceblue;
-        padding-bottom: 20px;
-
-    }
+ 
     .banner>.banner-title {
         display: flex;
         flex-direction: column;
@@ -73,6 +54,20 @@
         padding-bottom: 20px;
         text-align: center;
     
+    }
+
+    .banner-input-part{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .banner-input-part>select{
+        width: 100%;
+    }
+    .banner-input-part>input{
+        width: 92%;
+    }
+    .banner-input-part>button{
+        width: 100%;
     }
 
 
@@ -179,15 +174,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    direction: ltr;
 }
 .part1, .part2, .part3{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
 }
+.part1>p{
+    text-align: left;
+}
+.part2>p{
+    text-align: left;
+}
+.part3>p{
+    text-align: left;
+}
+
+
 .part3 {
     width: calc(100% - 50px);
+    
 
 }
 

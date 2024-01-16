@@ -98,43 +98,49 @@ nav>.main-logo {
 
 }
 
-form {
+.banner-input-part {
     display: flex;
     gap: 25px;
-    width: 100%;
+    width: 60% ;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px;
+    margin-top: 40px;
+    
 
 }
 
-.banner-input-part>.name-input{
-    display: flex;
-}
 
-form>input,
-select,
-option {
-    color: rgba(19, 19, 24, 0.50);
-    padding: 15px 25px;
+.banner-input-part>input{
+    width: 20%;
+    padding: 12px;
     border: none;
     border-radius: 5px;
-    width: 25%;
-
 }
-
-form>.prime-btn{
-    width: 25%;
-    font-size: 1rem;
-    padding: 15px 25px;
+.banner-input-part> select{
+    width:20%;
+    padding: 12px;
     border: none;
     border-radius: 5px;
-    background-color: #FF5400;
+}
+.banner-input-part>button{
+    width: 20%;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    background: #FF5400;
     color: aliceblue;
+    cursor: pointer;
 
 }
+
+
+
+
+
+
 
 
 /* popular-tour-part */

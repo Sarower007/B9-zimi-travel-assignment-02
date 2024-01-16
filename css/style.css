@@ -97,6 +97,12 @@ nav>.main-logo {
     padding-bottom: 50px;
 
 }
+.banner-paragraph-part>p{
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+
+}
 
 .banner-input-part {
     display: flex;

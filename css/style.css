@@ -105,9 +105,13 @@ form {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 50px;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.banner-input-part>.name-input{
+    display: flex;
 }
 
 form>input,
@@ -661,11 +665,7 @@ form>.prime-btn{
     left: 850px;
     bottom: 190px;
 
-    
-    
-    
    
-
 
 }
 .news-popup-part>p{

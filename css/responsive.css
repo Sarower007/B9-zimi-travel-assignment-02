@@ -1,0 +1,108 @@
+@media screen and (max-width:592px) {
+    * {
+        max-width: 550px;
+        margin: 0 auto;
+        font-family: 'Mulish', sans-serif;
+
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .hamburger-button {
+        display: block;
+        padding-left: 120px;
+
+
+
+    }
+    .hamburger-button >a{
+        color:#2e2e2e;
+        font-size: 2rem;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    form {
+        flex-direction: column;
+       margin-bottom: 20px;
+    }
+
+    form>input,
+    select,
+    option {
+        width: 80%;
+    }
+
+    form>.prime-btn {
+        width: 80%;
+        font-size: 1rem;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FF5400;
+        color: aliceblue;
+        padding-bottom: 20px;
+
+    }
+    .banner>.banner-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .banner-paragraph-part>p {
+        color: aliceblue;
+        text-align: center;
+    }
+    
+    .banner-title-part>h1 {
+        font-size: 2rem;
+        color: aliceblue;
+        padding-bottom: 20px;
+        text-align: center;
+    
+    }
+
+
+
+
+
+
+/* main */
+
+
+.popular-tour-part {
+    
+    flex-direction: column;
+    gap: 25px;
+
+}
+.destination-img-part>.first-row, .second-row, .third-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-row>.first-row-img1,
+.first-row-img2{
+    width: 100%;
+    
+}
+
+
+
+
+}

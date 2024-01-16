@@ -180,12 +180,13 @@ form>.prime-btn{
 
 .destination-part>.destination-top-part>p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .destination-part>.destination-top-part>h3 {
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 15px;
 
 }
 
@@ -348,11 +349,14 @@ form>.prime-btn{
 .choose-us-top-part>h2 {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 
 .choose-us-top-part>p {
     text-align: center;
+
 }
 
 .hotel-two-part {
@@ -591,16 +595,17 @@ form>.prime-btn{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    direction: ltr;
     width: 100%;
+
 
 }
 
 .newsletter-content {
-    padding: 20px;
+    padding: 35px 20px;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 50%;
+    width: 40%;
+    margin-right: 25px;
 }
 
 .news-input-part>input {
@@ -622,6 +627,7 @@ form>.prime-btn{
     flex-direction: column;
     gap: 15px;
     margin-top: 15px;
+    align-items: center;
 
 }
 .newsletter-content>button{
@@ -643,23 +649,44 @@ form>.prime-btn{
 }
 
 .news-popup-part{
+    
+   
     background: #FF5400;
     color: #FFF;
-    border-radius: 50%;
-    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    transform: rotate(-30deg);
+    left: 850px;
+    bottom: 190px;
+
+    
+    
+    
+   
+
 
 }
 .news-popup-part>p{
+    padding-top: 15px;
     text-align: center;
+
 
 }
 .news-popup-part>h1{
     text-align: center;
+
     
 }
-.ews-img-part{
-    width: 50%;
+.news-img-part{
+    width: 60%;
+}
+.news-img-part>img{
+    width: 100%;
     height: 100%;
+
+    
 
 }
 
@@ -673,7 +700,7 @@ footer{
     align-items: center;
     flex-direction: column;
     font-family:'Mulish', sans-serif;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .main-logo{
